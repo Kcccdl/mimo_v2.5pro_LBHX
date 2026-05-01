@@ -9,6 +9,7 @@
 "foc\stm32f4xx_it.o"
 "foc\stm32f4xx_hal_msp.o"
 "foc\motor_app.o"
+"foc\debug_monitor.o"
 "foc\stm32f4xx_hal_adc.o"
 "foc\stm32f4xx_hal_adc_ex.o"
 "foc\stm32f4xx_hal_rcc.o"

@@ -1,4 +1,5 @@
-foc/motor_app.o: ..\Core\Src\motor_app.c ..\Core\Inc\motor_app.h \
+foc/debug_monitor.o: ..\Core\Src\debug_monitor.c \
+  ..\Core\Inc\debug_monitor.h ..\Core\Inc\motor_app.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
   ..\Core\Inc\stm32f4xx_hal_conf.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
@@ -30,5 +31,4 @@ foc/motor_app.o: ..\Core\Src\motor_app.c ..\Core\Inc\motor_app.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
   ..\Drivers\BLDC\bldc.h ..\Drivers\Sensor\hall_sensor.h \
   ..\Drivers\Sensor\as5600.h ..\Drivers\Sensor\ina226.h \
-  ..\Drivers\Sensor\ntc_temp.h ..\Drivers\Communication\can_comm.h \
-  ..\Core\Inc\debug_monitor.h
+  ..\Drivers\Sensor\ntc_temp.h ..\Drivers\Communication\can_comm.h

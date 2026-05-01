@@ -10,6 +10,7 @@
  */
 
 #include "motor_app.h"
+#include "debug_monitor.h"
 #include <string.h>
 
 /* ---- 全局应用实例 ---- */
@@ -128,6 +129,9 @@ void MotorApp_Loop(void)
         g_app.tick_last_fault = now;
         MotorApp_FaultCheck();
     }
+
+    /* ---- 更新调试监视变量 (供Keil Watch窗口观察) ---- */
+    DebugMonitor_Update();
 }
 
 /* ============================================================ */
